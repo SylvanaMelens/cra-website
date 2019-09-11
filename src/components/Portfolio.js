@@ -12,7 +12,7 @@ import Typewriter from '../containers/Typewriter'
 const styles = {
     container: {
         display: 'flex',
-        width: '10em'
+        width: '11em'
     },
     title: {
         display: 'flex',
