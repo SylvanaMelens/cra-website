@@ -1,0 +1,38 @@
+/**
+ * site web-carte de visite en REACT
+ * @author: sylvana
+ */
+
+.navbar {
+    display: flex;
+    background: transparent;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    height: 30%;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navlink {
+    padding: 0.5em;
+    margin: 0 2.5em;
+    color: #009688;
+    font-size: 1.25em;
+    letter-spacing: 0.15em;
+}
+
+.navlink:hover {
+    text-decoration: none;
+    color: lime;
+}
+
+
+
+
