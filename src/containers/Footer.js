@@ -1,3 +1,4 @@
+
 /**
  * site web-carte de visite en REACT
  * @author: sylvana
@@ -15,6 +16,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         backgroundColor: 'white',
+        paddingTop: '0.5em',
         paddingLeft: '0.5em',
         marginTop: '0.5em'        
     },
@@ -32,7 +34,7 @@ const styles = {
     },
     mail : {
         color: colors.hover,
-        fontSize: '2.5em'
+        fontSize: '2em'
         
     }
 }
@@ -70,4 +72,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer 

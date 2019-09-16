@@ -24,12 +24,12 @@ const CV = () => {
         <div style={styles.content}>
             <CustomButton 
                 title="Télécharger le PDF" 
-                href="cv.pdf"
+                href="cv-sylvana-melens.pdf"
                 target="blank"
                 rel="noopener noreferrer" />
             <img 
                 style={styles.img} 
-                src="cv.jpg" 
+                src="cv-sylvana-melens.jpg" 
                 alt="CV Sylvana MELENS"/>
         </div>
     )

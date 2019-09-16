@@ -62,7 +62,7 @@ const styles = {
     h3: {
         color: colors.title,
         fontStyle: 'italic',
-        paddingTop: '0.5em',
+        paddingBottom: '0.5em',
     },
     text:{
         color: 'teal'
@@ -88,18 +88,12 @@ export default class Presentation extends Component {
         return (
             <div style={styles.content}>
                 <div style={styles.content.image}>
-                    <a 
-                        href='https://www.linkedin.com/in/sylvana-melens' 
-                        target='_blank' 
-                        rel='noopener noreferrer'>
-                        <img 
-                            src='sylvana-melens.jpg'     
-                            style={this.state.image}
-                            onMouseEnter={this.handleMouseEnter}
-                            onMouseLeave={this.handleMouseLeave}
-                            alt='sylvana melens'
-                            title='Cliquez pour voir le profil Linked-In' />
-                    </a>
+                    <img 
+                        src='sylvana-melens.jpg'     
+                        style={this.state.image}
+                        onMouseEnter={this.handleMouseEnter}
+                        onMouseLeave={this.handleMouseLeave}
+                        alt='sylvana melens'/>
                 </div>
                 <div style={styles.row}>
                     <h1 style={styles.title}>SYLVANA MELENS</h1>
@@ -123,13 +117,7 @@ export default class Presentation extends Component {
                         <DiDatabase title='SQL'/> 
                         <DiCode title='invite de commande' /> 
                         <DiGit title='Git'/>  
-                        <a 
-                            style={styles.h3}
-                            href='https://github.com/SylvanaMelens' 
-                            target='_blank' 
-                            rel='noopener noreferrer'>
-                            <DiGithubBadge title='Github' />
-                        </a>
+                        <DiGithubBadge title='Github' />
                     </h3>
                 </div>
             </div>
