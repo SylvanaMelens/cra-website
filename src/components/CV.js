@@ -13,7 +13,7 @@ const styles = {
         flexDirection: 'column'
     },
     img: {
-        width: '50%',
+        width: '65%',
         boxShadow: '0px 5px 15px 2px black',
         marginBottom: '0.7em',
     },
