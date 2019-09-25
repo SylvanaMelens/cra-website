@@ -27,8 +27,6 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center', 
         textAlign: 'center',
-        paddingLeft: '1em',
-        paddingRight: '0.5em'
     },
     image: {
         borderRadius: '50%',
