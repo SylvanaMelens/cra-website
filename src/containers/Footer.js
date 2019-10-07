@@ -35,7 +35,6 @@ const styles = {
     mail : {
         color: colors.hover,
         fontSize: '2em'
-        
     }
 }
 

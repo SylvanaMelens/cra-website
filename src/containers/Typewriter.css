@@ -13,8 +13,10 @@
 .presentation {
   letter-spacing: 0.13em;
   padding-bottom: 0.1em;
+  margin-bottom: 1em;
+  max-width: 19.5em;
   animation: 
-    typing 2.5s steps(25, end),
+    typing 8s steps(64, start),
     blink-caret 0.80s step-end infinite;
 }
 

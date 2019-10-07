@@ -5,8 +5,10 @@
 
 import React, { Component } from 'react'
 import colors from '../utils/colors'
-import { DiReact, DiJavascript1, DiJqueryLogo, DiBootstrap, DiHtml5, DiCss3, DiWordpress, DiCode, DiDatabase, DiGit, DiGithubBadge, DiMysql, DiPhp, DiPython } from 'react-icons/di'
+import Icons from '../containers/Icons'
 import Typewriter from '../containers/Typewriter'
+import Text from '../containers/Text'
+
 
 const styles = {
     content: {
@@ -19,8 +21,8 @@ const styles = {
             justifyContent: 'center',
             alignItems: 'center',
         },
-        marginBottom: '0.7em'
-    },
+        marginBottom: '0.7em',
+   },
     row: {
         flexDirection: 'column',
         display: 'flex',
@@ -57,14 +59,6 @@ const styles = {
         fontWeight: 'normal',
         letterSpacing: '0.1em'
     },
-    h3: {
-        color: colors.title,
-        fontStyle: 'italic',
-        paddingBottom: '0.5em',
-    },
-    text:{
-        color: 'teal'
-    }     
 }
 
 export default class Presentation extends Component {
@@ -84,7 +78,9 @@ export default class Presentation extends Component {
     
     render(){
         return (
+
             <div style={styles.content}>
+                             
                 <div style={styles.content.image}>
                     <img 
                         src='sylvana-melens.jpg'     
@@ -99,24 +95,8 @@ export default class Presentation extends Component {
                     <Typewriter 
                         place='presentation' 
                         title='Amoureuse du code - Autodidacte' />
-                    <h3 style={styles.h3}>
-                        <DiReact title='React.js'/> 
-                        <DiJavascript1 title='JavaScript'/> 
-                        <DiHtml5 title='HTML5'/> 
-                        <DiCss3 title='CSS3'/> 
-                        <DiJqueryLogo title='jQuery'/> 
-                        <DiBootstrap title='Bootstrap'/>  
-                        <DiWordpress title='Wordpress'/>
-                    </h3>
-                    <h3 style={styles.h3}>
-                        <DiPython title='Python 3'/> 
-                        <DiPhp title='PHP7'/> 
-                        <DiMysql title='mySQL'/> 
-                        <DiDatabase title='SQL'/> 
-                        <DiCode title='invite de commande' /> 
-                        <DiGit title='Git'/>  
-                        <DiGithubBadge title='Github' />
-                    </h3>
+                    <Icons />
+                    <Text />
                 </div>
             </div>
         )
