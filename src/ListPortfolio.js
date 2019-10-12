@@ -2,7 +2,7 @@ export default {
     image0: {
       title: 'Mon premier site',
       src: 'sitesylvanamelens.png',
-      outerLink: 'https://sylvana-melens.be',
+      outerLink: 'https://sleepy-curran-6a615f.netlify.com',
       desc: 'Site développé "from scratch" en HTML-CSS et Bootstrap'
     },
     image1: {
