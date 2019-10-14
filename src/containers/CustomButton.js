@@ -65,7 +65,7 @@ export default class CustomButton extends Component {
     }
 
     render(){
-    const { title, href, icon, target, rel } = this.props
+    const { title, href, icon, target, rel, onClick } = this.props
     
     return (
         <div style={styles.content}> 
@@ -77,6 +77,7 @@ export default class CustomButton extends Component {
                 <Button 
                     onMouseEnter={this.handleMouseEnter}
                     onMouseLeave={this.handleMouseLeave}
+                    onClick={onClick}
                     style={this.state.button}>
                     {title}
                     {icon}
