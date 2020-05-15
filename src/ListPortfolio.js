@@ -20,7 +20,7 @@ export default {
   image3: {
     title: "Projet en cours",
     src: "ecole.png",
-    outerLink: "",
+    outerLink: "https://efwb-ferrieres-projet-en-cours.netlify.app/",
     desc: "Site école de Ferrières, en React.js ",
   },
   image4: {
