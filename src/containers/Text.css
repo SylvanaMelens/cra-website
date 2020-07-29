@@ -1,6 +1,7 @@
 .text {
     color: #999;
     font-style: italic;
+    font-size: 0.7em;
     max-width: 50%;
     padding-top : 0.5em;
     display: flex;

@@ -48,8 +48,8 @@ const styles = {
     },    
     title: {
         color: colors.title,
-        letterSpacing: '0.2em',
-    },
+        letterSpacing: '0.1em',
+        },
     subtitle: {
         color: '#999',
         paddingTop: '0.5em',

@@ -4,7 +4,7 @@
  */
 
 .container {
-  background: transparent; 
+  background: transparent;
   border: 1px solid lime;
   display: flex;
   flex-wrap: wrap;
