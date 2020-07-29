@@ -7,6 +7,7 @@ import "./App.css";
 import Presentation from "./components/Presentation";
 import CV from "./components/CV";
 import Portfolio from "./components/Portfolio";
+import Certifications from "./components/Certifications";
 import Error from "./components/Error";
 import NavbarHeader from "./containers/NavbarHeader";
 import Footer from "./containers/Footer";
@@ -37,6 +38,7 @@ export default class App extends Component {
               <Route path="/presentation" component={Presentation} />
               <Route path="/cv" component={CV} />
               <Route path="/portfolio" component={Portfolio} />
+              <Route path="/certifications" component={Certifications} />
               <Route path="" component={Error} />
             </Switch>
           </div>
