@@ -169,7 +169,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(white, whitesmoke);
+  /* background: linear-gradient(white, whitesmoke); */
+  background-image: url("https://sylvanamelens.com/corolla.jpg");
 }
 
 code {
