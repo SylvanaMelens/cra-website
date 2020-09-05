@@ -5,9 +5,9 @@
 
 .navbar {
     display: flex;
-    background: transparent;
+    background: rgba(0,0,0, 0.7);
     padding: 1em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     height: 30%;
 }
 
@@ -23,9 +23,9 @@
 .navlink {
     padding: 0.5em;
     margin: 0 2.5em;
-    color: #009688;
+    color: #ccc;
     font-size: 1.25em;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.17em;
 }
 
 .navlink:hover {

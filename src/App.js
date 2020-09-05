@@ -4,7 +4,7 @@
  */
 import React, { Component } from "react";
 import "./App.css";
-import Presentation from "./components/Presentation";
+import Accueil from "./components/Accueil";
 import CV from "./components/CV";
 import Portfolio from "./components/Portfolio";
 import Certifications from "./components/Certifications";
@@ -31,13 +31,13 @@ export default class App extends Component {
     return (
       <div className="container-fluid">
         <BrowserRouter>
-          <div className="container-fluid App-header">
-            <NavbarHeader />
+          <div className="App-header">
+            {/* <NavbarHeader /> */}
             <Switch className="Content">
-              <Route exact path="/" component={Presentation} />
-              <Route path="/presentation" component={Presentation} />
-              <Route path="/cv" component={CV} />
+              <Route exact path="/" component={Accueil} />
+              <Route path="/accueil" component={Accueil} />
               <Route path="/portfolio" component={Portfolio} />
+              <Route path="/cv" component={CV} />
               <Route path="/certifications" component={Certifications} />
               <Route path="" component={Error} />
             </Switch>

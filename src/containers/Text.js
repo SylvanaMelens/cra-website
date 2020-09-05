@@ -15,7 +15,7 @@ const Text = () => {
         de me diriger vers l'informatique.{" "}
       </p>
       <p>
-        Depuis presque deux ans, je me passionne pour le{" "}
+        Depuis 2018, je me passionne pour la programmation ainsi que le{" "}
         <strong>développement web</strong> et je code dès que cela est possible.
       </p>
       <p>
@@ -34,7 +34,7 @@ const Text = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+         GitHub
         </a>{" "}
         afin de vous faire une petite idée.
       </p>
