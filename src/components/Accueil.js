@@ -63,22 +63,16 @@ const styles = {
     fontWeight: "normal",
     letterSpacing: "0.1em",
   },
+  a: {
+    paddingTop: "1.1em",
+    paddingBottom: "1.1em",
+  },
 };
 
 export default class Accueil extends Component {
   state = {
     image: styles.image,
   };
-
-  // handleMouseEnter = (e) => {
-  //     console.log('mouse enter ', e)
-  //     this.setState({ image : styles.link })
-  // }
-
-  // handleMouseLeave = (e) => {
-  //     console.log('mouse leave ', e)
-  //     this.setState({ image : styles.image })
-  // }
 
   render() {
     return (
@@ -97,8 +91,18 @@ export default class Accueil extends Component {
           <Icons />
           <Text />
         </div>
-
-        <Button to="/portfolio" title="VOIR LE PORTFOLIO" />
+        <div className="text-center">
+          <Button to="/portfolio" title="VOIR LE PORTFOLIO" />
+          <a
+            style={styles.a}
+            href="mailto::sylvana.melens@hotmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary ml-3"
+          >
+            ENVOYER UN MAIL
+          </a>
+        </div>
       </div>
     );
   }

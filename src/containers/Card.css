@@ -53,6 +53,8 @@
   font-size: 0.8em;
   text-align: center;
   overflow-wrap: break-word;
+  /* font-weight: bold; */
+  text-shadow: 2px 2px 37px black;
 }
 .image,
 .image-certif {

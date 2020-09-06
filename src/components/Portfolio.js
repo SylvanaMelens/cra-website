@@ -4,10 +4,11 @@
  */
 
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Card from "../containers/Card";
 import images from "../ListPortfolio";
 import Typewriter from "../containers/Typewriter";
-import Button from "../containers/Button";
+
 
 const styles = {
   container: {
@@ -15,7 +16,13 @@ const styles = {
     width: "11em",
   },
   button: {
-    margin: "0 auto",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "#fff",
+    border: "3px solid black",
+    padding: "0.5em",
+    textShadow: '2px 2px 75px black'
   },
 };
 
@@ -33,13 +40,21 @@ export default class Portfolio extends Component {
         <div style={styles.container}>
           <Typewriter place="portfolio" title="mes réalisations" />
         </div>
-        <div className="container container-fluid mt-4">{images}</div>
+        <div className="container container-fluid mt-3">
+          {images}
 
-        <Button
-          style={styles.button}
-          to="/accueil"
-          title="RETOUR A L'ACCUEIL"
-        />
+          <div style={styles.container}>
+            <Link style={styles.button} to="/accueil">RETOUR A L'ACCUEIL</Link>
+            {/* {" "}
+              <Button
+                style={styles.button}
+                to="/accueil"
+                title="RETOUR A L'ACCUEIL"
+              /> */}
+          </div>
+        </div>
+
+        <div></div>
       </div>
     );
   }
