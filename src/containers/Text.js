@@ -10,9 +10,8 @@ const Text = () => {
   return (
     <div className="text">
       <p>
-        Après 20 années d'expérience en tant que secrétaire juridique et
-        comptable, j'ai autorisé mon côté geek à prendre le dessus et ai décidé
-        de me diriger vers l'informatique.{" "}
+        Après 20 années d'expérience dans le domaine administratif, j'ai autorisé mon côté geek à prendre le dessus et ai décidé
+        d'approfondir mes connaissances en informatique.{" "}
       </p>
       <p>
         Depuis 2018, je me passionne pour la programmation ainsi que le{" "}
@@ -24,7 +23,7 @@ const Text = () => {
       </p>
       <p>
         Côté front, j'aime beaucoup développer en <strong>React.js</strong>,
-        mais je suis capable de m'adapter à tout type de projets, facilement et
+        mais je m'adapte à tout type de projets, facilement et
         volontiers.
       </p>
       <p>

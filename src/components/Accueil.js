@@ -8,8 +8,7 @@ import colors from "../utils/colors";
 import Icons from "../containers/Icons";
 import Typewriter from "../containers/Typewriter";
 import Text from "../containers/Text";
-import CustomButton from "../containers/CustomButton";
-import Portfolio from "./Portfolio";
+import Button from "../containers/Button";
 
 const styles = {
   content: {
@@ -33,6 +32,7 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
+    marginBottom: "1em",
   },
   image: {
     borderRadius: "50%",
@@ -98,11 +98,7 @@ export default class Accueil extends Component {
           <Text />
         </div>
 
-        <CustomButton
-          to="/portfolio"
-          component={Portfolio}
-          title="Voir le portfolio"
-        />
+        <Button to="/portfolio" title="VOIR LE PORTFOLIO" />
       </div>
     );
   }
