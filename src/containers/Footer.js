@@ -14,26 +14,23 @@ const styles = {
     bottom: "0",
     display: "flex",
     justifyContent: "center",
-    backgroundColor: "white",
+    backgroundColor: colors.border,
     paddingTop: "0.5em",
     paddingLeft: "0.5em",
     marginTop: "0.5em",
+    border: "1px solid #111",
   },
   text: {
-    color: colors.bgc,
+    color: colors.title,
     fontSize: "0.8em",
     fontStyle: "italic",
     paddingTop: "0.5em",
     marginRight: "1em",
   },
   logo: {
-    color: colors.bgc,
+    color: colors.title,
     fontSize: "1em",
     marginRight: "1em",
-  },
-  mail: {
-    color: colors.hover,
-    fontSize: "2em",
   },
 };
 

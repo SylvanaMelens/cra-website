@@ -1,6 +1,6 @@
 export default {
     background: 'transparent',
-    title:  '#ddd',
+    title:  '#ccc',
     subtitle: '#F5F5F5',
     text: '#ddd',
     border: '#333',

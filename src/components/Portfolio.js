@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import Card from "../containers/Card";
 import images from "../ListPortfolio";
 import Typewriter from "../containers/Typewriter";
-
+import colors from "../utils/colors";
 
 const styles = {
   container: {
@@ -16,13 +16,14 @@ const styles = {
     width: "11em",
   },
   button: {
+    backgroundColor: colors.border,
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    color: "#fff",
-    border: "3px solid black",
+    color: colors.title,
     padding: "0.5em",
-    textShadow: '2px 2px 75px black'
+    textShadow: "2px 2px 75px black",
+    borderRadius: "5px",
   },
 };
 
@@ -40,21 +41,11 @@ export default class Portfolio extends Component {
         <div style={styles.container}>
           <Typewriter place="portfolio" title="mes réalisations" />
         </div>
-        <div className="container container-fluid mt-3">
-          {images}
+        <div className="container container-fluid mt-1">{images}</div>
 
-          <div style={styles.container}>
-            <Link style={styles.button} to="/accueil">RETOUR A L'ACCUEIL</Link>
-            {/* {" "}
-              <Button
-                style={styles.button}
-                to="/accueil"
-                title="RETOUR A L'ACCUEIL"
-              /> */}
-          </div>
-        </div>
-
-        <div></div>
+        <Link style={styles.button} to="/accueil">
+          RETOUR A L'ACCUEIL
+        </Link>
       </div>
     );
   }
