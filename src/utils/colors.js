@@ -1,9 +1,11 @@
 export default {
     background: 'transparent',
-    title:  '#009688',
+    title:  '#ccc',
     subtitle: '#F5F5F5',
-    text: '#E1E1E1',
-    border: '#F5F5F5',
-    hover: '#0F0', 
-    teal: '#008080'
+    text: '#ddd',
+    border: '#333',
+    hover: '#222', 
+    teal: '#ddd',
+    bgc: '#333',
+    bgcHover: '#ddd'
 }

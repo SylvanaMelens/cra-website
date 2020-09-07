@@ -11,18 +11,13 @@ const styles = {
   container: {
     display: "flex",
     width: "11em",
-    backgroundColor: "teal"
   },
   title: {
     display: "flex",
     justifyContent: "center",
     paddingTop: "0.5em",
     paddingBottom: "0.5em",
-
-  },
-  h1: {
-    color: "teal",
-  },
+  }
 };
 
 export default class Portfolio extends Component {
@@ -38,7 +33,7 @@ export default class Portfolio extends Component {
       <div>
         <h1 style={styles.h1}>Certificates</h1>
         <div style={styles.container}> </div>
-        <div style={styles.title} className="container container-fluid">{images}</div>
+        <div style={styles.title} className="certif-container container-fluid">{images}</div>
       </div>
     );
   }

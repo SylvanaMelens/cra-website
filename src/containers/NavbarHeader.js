@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom'
 import './NavbarHeader.css'
 
 const NavbarHeader = () => {
-    const [ menu ] = useState(["presentation", "portfolio", "cv"])
+    const [ menu ] = useState(["accueil", "portfolio"])
         const navbarMenu = menu
             .map(title =>
                 <NavLink

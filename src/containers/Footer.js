@@ -14,10 +14,11 @@ const styles = {
     bottom: "0",
     display: "flex",
     justifyContent: "center",
-    backgroundColor: "white",
+    backgroundColor: colors.border,
     paddingTop: "0.5em",
     paddingLeft: "0.5em",
     marginTop: "0.5em",
+    border: "1px solid #111",
   },
   text: {
     color: colors.title,
@@ -30,10 +31,6 @@ const styles = {
     color: colors.title,
     fontSize: "1em",
     marginRight: "1em",
-  },
-  mail: {
-    color: colors.hover,
-    fontSize: "2em",
   },
 };
 
@@ -59,14 +56,6 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <DiGithubBadge />
-        </a>
-        <a
-          style={styles.text}
-          href="mailto::sylvana.melens@hotmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaEnvelope style={styles.mail} />
         </a>
       </div>
     </div>

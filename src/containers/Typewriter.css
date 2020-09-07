@@ -3,14 +3,16 @@
  * @author: sylvana
  */
 
-.presentation, .portfolio {
-    color: teal;
+
+.accueil, .portfolio {
+    color: #ddd;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 0.1em solid lime;
+    border-right: 0.1em solid #ddd;
+    background-color: #333;
 }    
     
-.presentation {
+.accueil {
   letter-spacing: 0.1em;
   padding-bottom: 0.1em;
   margin-bottom: 1em;
@@ -37,5 +39,5 @@
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: lime; }
+  50% { border-color: #ddd; }
 }

@@ -5,7 +5,7 @@
 
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import './CardCertificate.css'
+import './Card.css'
 
 export default class CardCertificate extends Component {
     render(){
@@ -18,7 +18,7 @@ export default class CardCertificate extends Component {
                     target='_blank' 
                     rel='noopener noreferrer'>
                     <img 
-                        className='image' 
+                        className='image-certif' 
                         src={ src } 
                         alt={ src }/>
                 </a>
