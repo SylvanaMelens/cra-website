@@ -9,6 +9,7 @@ import Icons from "../containers/Icons";
 import Typewriter from "../containers/Typewriter";
 import Text from "../containers/Text";
 import Button from "../containers/Button";
+import MailButton from "../containers/MailButton";
 
 const styles = {
   content: {
@@ -40,16 +41,6 @@ const styles = {
     border: "2px dotted",
     borderColor: colors.hover,
   },
-  link: {
-    flexDirection: "column",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: "50%",
-    marginBottom: "1em",
-    border: "2px solid",
-    borderColor: colors.teal,
-  },
   title: {
     color: colors.title,
     letterSpacing: "0.1em",
@@ -62,10 +53,6 @@ const styles = {
     textDecorationColor: colors.hover,
     fontWeight: "normal",
     letterSpacing: "0.1em",
-  },
-  a: {
-    paddingTop: "1.1em",
-    paddingBottom: "1.1em",
   },
 };
 
@@ -93,15 +80,7 @@ export default class Accueil extends Component {
         </div>
         <div className="text-center">
           <Button to="/portfolio" title="VOIR LE PORTFOLIO" />
-          <a
-            style={styles.a}
-            href="mailto::sylvana.melens@hotmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-secondary ml-3"
-          >
-            ENVOYER UN MAIL
-          </a>
+          <MailButton />
         </div>
       </div>
     );

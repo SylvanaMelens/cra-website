@@ -4,26 +4,15 @@
  */
 
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import Card from "../containers/Card";
 import images from "../ListPortfolio";
 import Typewriter from "../containers/Typewriter";
-import colors from "../utils/colors";
+import Button from "../containers/Button";
 
 const styles = {
   container: {
     display: "flex",
     width: "11em",
-  },
-  button: {
-    backgroundColor: colors.border,
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    color: colors.title,
-    padding: "0.5em",
-    textShadow: "2px 2px 75px black",
-    borderRadius: "5px",
   },
 };
 
@@ -38,14 +27,13 @@ export default class Portfolio extends Component {
     ));
     return (
       <div>
+        <div className="text-right">
+          <Button to="/" title="RETOUR A L'ACCUEIL" />
+        </div>
         <div style={styles.container}>
           <Typewriter place="portfolio" title="mes réalisations" />
-        </div>
+        </div>{" "}
         <div className="container container-fluid mt-1">{images}</div>
-
-        <Link style={styles.button} to="/accueil">
-          RETOUR A L'ACCUEIL
-        </Link>
       </div>
     );
   }
