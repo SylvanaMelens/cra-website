@@ -8,7 +8,7 @@ export default {
   image1: {
     title: "",
     src: "ecole.png",
-    outerLink: "https://efwb-ferrieres-projet-en-cours.netlify.app/",
+    outerLink: "https://efwb-ferrieres.netlify.app/",
     desc: "Site école de Ferrières - React.js ",
   },
   image2: {
