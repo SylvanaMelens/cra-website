@@ -7,9 +7,9 @@ export default {
   },
   image1: {
     title: "",
-    src: "ecole.png",
-    outerLink: "https://efwb-ferrieres.netlify.app/",
-    desc: "Site école de Ferrières - React.js ",
+    src: "cosmos-pexels.jpg",
+    outerLink: "https://everyday-a-wonderful-astronomy-picture-from-nasa.netlify.app/",
+    desc: "Découvrez chaque jour une image de l'espace - React.js ",
   },
   image2: {
     title: "",
