@@ -5,7 +5,7 @@
 
 import React from "react";
 import colors from "../utils/colors";
-import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { DiGithubBadge } from "react-icons/di";
 
 const styles = {

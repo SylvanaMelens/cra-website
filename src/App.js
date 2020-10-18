@@ -9,7 +9,7 @@ import CV from "./components/CV";
 import Portfolio from "./components/Portfolio";
 import Certifications from "./components/Certifications";
 import Error from "./components/Error";
-import NavbarHeader from "./containers/NavbarHeader";
+// import NavbarHeader from "./containers/NavbarHeader";
 import Footer from "./containers/Footer";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 

@@ -7,7 +7,7 @@ export default {
   },
   image1: {
     title: "",
-    src: "cosmos-pexels.jpg",
+    src: "vignette-apod.png",
     outerLink: "https://everyday-a-wonderful-astronomy-picture-from-nasa.netlify.app/",
     desc: "Découvrez chaque jour une image de l'espace - React.js ",
   },

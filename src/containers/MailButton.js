@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const styles = {
   a: {
     paddingTop: "1.1em",
     paddingBottom: "1.1em",
-    boxShadow: "0px 5px 30px 2px black",
+    boxShadow: "0px 5px 30px 2px rgba(0,0,0,0.2)",
   },
 };
-const MailButton = ({ to, title }) => {
+const MailButton = () => {
   return (
     <>
       <a

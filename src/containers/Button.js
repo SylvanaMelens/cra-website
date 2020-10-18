@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 const styles = {
   button: {
     margin: "0 auto",
-    width: "10em",
-    boxShadow: "0px 5px 30px 2px black",
+    boxShadow: "0px 5px 30px 2px rgba(0,0,0,0.2)",
   },
 };
 const Button = ({ to, title }) => {
@@ -14,7 +13,7 @@ const Button = ({ to, title }) => {
       <Link
         style={styles.button}
         to={to}
-        className="btn btn-md col-sm-6 btn-light"
+        className="btn btn-light ml-3 p-3"
       >
         {title}
       </Link>

@@ -9,7 +9,7 @@ import './Card.css'
 
 export default class CardCertificate extends Component {
     render(){
-        const { outerLink, src, title, desc } = this.props.details 
+        const { outerLink, src } = this.props.details 
     
         return (
             <div>
