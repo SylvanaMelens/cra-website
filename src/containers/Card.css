@@ -19,6 +19,7 @@
 
 .container > * {
   max-width: 300px;
+  min-height: 280px;
 }
 .certif-container > *,
 .container > * {
@@ -49,12 +50,20 @@
 
 .certif-container > div > p,
 .container > div > p {
-  color: #fff;
-  font-size: 0.8em;
+  color: #444;
+  font-size: 0.6em;
+  font-weight: 600;
   text-align: center;
   overflow-wrap: break-word;
-  text-shadow: 2px 2px 37px black;
+  text-shadow: 2px 5px 37px #fff;
 }
+
+.github-link {
+  font-size: 0.5em;
+  font-style: italic;
+  color: #555;
+}
+
 .image,
 .image-certif {
   width: 100%;

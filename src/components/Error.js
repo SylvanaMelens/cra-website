@@ -6,9 +6,9 @@
 import React from 'react'
 
 const Error = () => {
-    return (
-        <div>Oups... Cette page semble ne pas exister.</div>
-    )
+  return (
+    <div>Oups... Cette page semble ne pas exister.</div>
+  )
 }
 
 export default Error

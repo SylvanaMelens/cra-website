@@ -6,10 +6,9 @@
 import React from 'react'
 import './Typewriter.css'
 
- const Typewriter = ({ title, place }) => 
-        <div className={ place }> 
-            { title }
-        </div>
-
+const Typewriter = ({ title, place }) =>
+  <div className={place}>
+    {title}
+  </div>
 
 export default Typewriter
