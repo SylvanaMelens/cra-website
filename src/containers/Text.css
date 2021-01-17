@@ -1,6 +1,5 @@
 .text {
   color: #999;
-  /* font-style: italic; */
   font-size: 0.7em;
   max-width: 50%;
   padding-top: 0.5em;
@@ -25,10 +24,11 @@ strong {
   color: #ddd;
 }
 
-h2 {
+.text h2 {
   padding-top: 1em;
+  color: #bbb;
 }
 
-p {
+.text p {
   padding-top: 0.5em;
 }

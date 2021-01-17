@@ -1,6 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
+ 
+    <script type="text/javascript">
+      tarteaucitron.init({
+        "privacyUrl": "", /* Privacy policy url */
+    
+        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+        "cookieName": "tarteaucitron", /* Cookie name */
+    
+        "orientation": "bottom", /* Banner position (top - bottom) */
+    
+        "showAlertSmall": false, /* Show the small banner on bottom right */
+        "cookieslist": false, /* Show the cookie list */
+        
+        "showIcon": true, /* Show cookie icon to manage cookies */
+        "iconPosition": "BottomLeft", /* Position of the icon between BottomRight, BottomLeft, TopRight and TopLeft */
+    
+        "adblocker": false, /* Show a Warning if an adblocker is detected */
+    
+        "DenyAllCta" : true, /* Show the deny all button */
+        "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+        "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+    
+        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+    
+        "removeCredit": false, /* Remove credit link */
+        "moreInfoLink": true, /* Show more info link */
+        "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+    
+        //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for subdomain website */
+    
+        "readmoreLink": "", /* Change the default readmore link pointing to tarteaucitron.io */
+        
+        "mandatory": true /* Show a message about mandatory cookies */
+      });
+    </script> 
+
+
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="icon" href="%PUBLIC_URL%/logo.png" />
@@ -29,6 +67,12 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+    <script>
+      var myLandbot = new Landbot.Livechat({
+      configUrl: 'https://chats.landbot.io/v3/H-794484-ZFQ9RMLS69AUPVGG/index.json',
+      });
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -40,5 +84,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+  <script type="text/javascript">
+    tarteaucitron.user.gtagUa = 'UA-141623486-2';
+    tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+    (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+  </script>
+
+
   </body>
 </html>
